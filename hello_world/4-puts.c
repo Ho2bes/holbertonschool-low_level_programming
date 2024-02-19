@@ -1,7 +1,8 @@
 #include<stdio.h>
+
 /** 
 *main - puts command
-*return 
+*Return: Always 0 
 */
 int main(void)
 {
