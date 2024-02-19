@@ -7,7 +7,7 @@
 
 int main(void)
 {
-int inType;
+int intType;
 float floatType;
 double doubleType;
 char charType;
