@@ -8,8 +8,7 @@
 *return: Alway 0 (Success)
 *
 */
-
-int main(int argc, char *argv[])
+int main(void)
 {
 int n;
 
