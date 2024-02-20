@@ -4,9 +4,8 @@
 
 /**
 *main - Entry point
-*Prints the last digit of randomly generated number
-*return: Alway 0 (Success)
 *
+*return: Alway 0 (Success)
 */
 int main(void)
 {
