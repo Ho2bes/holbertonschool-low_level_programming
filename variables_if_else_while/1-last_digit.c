@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
-*main - Entry point 
+*main - Entry point
 *Prints the last digit of randomly generated number
 *return: Alway 0 (Success)
 *
