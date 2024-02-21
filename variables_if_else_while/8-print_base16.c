@@ -10,7 +10,7 @@ int main(void)
 {
 int numero;
 char ch;
-for (numero = '1'; numero <= '9'; numero++)
+for (numero = '0'; numero <= '9'; numero++)
 putchar(numero);
 for (ch = 'a'; ch <= 'f'; ch++)
 putchar(ch);
