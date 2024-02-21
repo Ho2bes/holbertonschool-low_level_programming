@@ -8,15 +8,10 @@
 
 int _islower(int c)
 {
-int i;
-i = 0;
-if(i >= 61)
+c = 0;
+if (c >= 97 && c <= 122)
 {
- _putchar('1', i, _islower(i));
- }
-Else
-{
- _putchar('0', i, _islower (i));
+return (1);
 }
 return (0);
 }
