@@ -10,9 +10,10 @@
 
 int main(void)
 {
-char ch
-for (ch = 'a'; ch <= 'z'; ch++)
-_putchar(ch);
+char alpha = 'a';
+while (alpha <= 'z')
+_putchar(alpha);
+alpha++
 _putchar('\n');
 return (0);
 }
