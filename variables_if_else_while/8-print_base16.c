@@ -8,7 +8,8 @@
 
 int main(void)
 {
-int numero; char ch;
+int numero;
+char ch;
 for (numero = '1'; numero <= '9'; numero++)
 putchar(numero);
 for (ch = 'a'; ch <= 'f'; ch++)
@@ -16,4 +17,3 @@ putchar(ch);
 putchar('\n');
 return (0);
 }
-    
