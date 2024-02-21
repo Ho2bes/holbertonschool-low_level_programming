@@ -8,11 +8,15 @@
 
 int _islower(int c)
 {
-
-int c;
-if(c => 61)
-_putchar('1');
+int i;
+i = 0;
+if(i >= 61)
+{
+ _putchar('1', i, _islower(i));
+ }
 Else
-_putchar('0');
+{
+ _putchar('0', i, _islower (i));
+}
 return (0);
 }
