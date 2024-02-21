@@ -8,13 +8,15 @@
 
 int main(void)
 {
-char numero;
-char virgule = "\,"
-char espace = " "
-for (numero = '0'; numero <= '9'; numero++)
-putchar(numero);
-putchar(virgule);
-putchar(espace);
+int i;
+for (i = '0'; numero <= '9'; i++)
+putchar (i + '0');
+if (i < 9)
+{
+putchar (',');
+putchar (' ');
+}
+}
 putchar('\n');
 return (0);
 }
