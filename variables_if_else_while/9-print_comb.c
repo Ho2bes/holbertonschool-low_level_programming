@@ -9,10 +9,12 @@
 int main(void)
 {
 char numero;
-char virgule = ","
+char virgule = "\,"
 char espace = " "
 for (numero = '0'; numero <= '9'; numero++)
-putchar(numero, virgule, espace);
+putchar(numero);
+putchar(virgule);
+putchar(espace);
 putchar('\n');
 return (0);
 }
