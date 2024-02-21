@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-*main - Entry point
+*print_alphabet - Entry point
 *
 *Return: always 0 (Success)
 */
@@ -13,7 +13,7 @@ while (c <= 'z')
 {
 _putchar(c);
 c++;
-_putchar('\n');
 }
+_putchar('\n');
 return (0);
 }
