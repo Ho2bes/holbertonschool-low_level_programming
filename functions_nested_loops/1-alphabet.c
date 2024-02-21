@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -10,11 +10,11 @@
 
 int main(void)
 {
-char alpha = 'a';
-while (alpha <= 'z')
+char c = 'a';
+while (c <= 'z')
 {
-_putchar(alpha);
-alpha++;
+_putchar(c);
+c++;
 _putchar('\n');
 }
 return (0);
