@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-*int _isalpha - Entry point
+*_isalpha - Entry point
 *@c : - whaaaat
 *Return: always 0 (Success)
 */
