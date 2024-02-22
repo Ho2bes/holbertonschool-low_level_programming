@@ -1,10 +1,10 @@
 #include "main.h"
 
-    /**
-    *print_sign - Entry point
-    *@n: - whaaat
-    *Return: always 0 (Success)
-    */
+/**
+*print_sign - Print the sign of a number
+*@n: - whaaat
+*Return: always 0 (Success)
+*/
 
 int print_sign(int n)
 {
