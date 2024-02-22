@@ -1,10 +1,10 @@
 #include "main.h"
 
-    /**
-    *int _isalpha - Entry point
-    *
-    *Return: always 0 (Success)
-    */
+/**
+*int _isalpha - Entry point
+*@c : - whaaaat
+*Return: always 0 (Success)
+*/
 
 int _isalpha(int c)
 {
