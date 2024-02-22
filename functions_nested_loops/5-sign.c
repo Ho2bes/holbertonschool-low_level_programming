@@ -2,7 +2,7 @@
 
     /**
     *print_sign - Entry point
-    *
+    *@n: - whaaat
     *Return: always 0 (Success)
     */
 
