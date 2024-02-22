@@ -8,13 +8,8 @@
 
 int print_sign(int n)
 {
-if (n > 0)
-	_purchar("+");
-return (1);
-else if (n = 0)
-	_purchar("0");
-return (0);
+if (n > 0 || n = 0)
+return (1 || 0 );
 else
-	_purchar("-");
-return (-1);
+return (-1)
 }
