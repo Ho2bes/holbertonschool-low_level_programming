@@ -23,7 +23,7 @@ if (z < 10)
 _putchar(' ');
 }
 
-if (z < 1)
+if (z < 10)
 _putchar(z + '0');
 else
 {
