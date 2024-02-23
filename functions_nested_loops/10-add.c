@@ -2,12 +2,12 @@
 
 /**
 *add - Entry point
-*@a : variable 1
-*@b : variable 2
+*@num1 : variable 1
+*@num2 : variable 2
 *Return: always 0 (Success)
 */
 
-int add(int a, int b)
+int add(int num1, int num2)
 {
-	return (int a + int b);
+	return (num1 + num2);
 }
