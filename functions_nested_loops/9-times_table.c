@@ -25,7 +25,7 @@ _putchar( z + '0');
 _putchar(',');
 _putchar(' ');
 _putchar(' ');
-			}
+}			}
 if (z < 9 && x != 0 )
 {
 _putchar(',');
