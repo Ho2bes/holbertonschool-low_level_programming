@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
-*main fizzbuzz - Compute the absolute value of an integer
+*main(void) - Compute the absolute value of an integer
 *@n : - variable
 * Return: The absolute value
 */
