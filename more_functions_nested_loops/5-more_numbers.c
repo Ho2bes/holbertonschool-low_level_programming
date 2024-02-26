@@ -8,16 +8,15 @@
 
 void more_numbers(void)
 {
-	int x;
-	int compteur = 0;
+int x;
+int a;
 
-	while (compteur < 10)
-	{
-	for (x = 0; x <= 14; x++)
-	{
-		_putchar(x + '0');
-	}
-	compteur ++;
-	}
-	_putchar('\n');
-		}
+for (a = 0; a < 10; a++)
+{
+for (x = 0; x <= 14; x++)
+{
+_putchar(x + '0');
+}
+}
+_putchar('\n');
+}
