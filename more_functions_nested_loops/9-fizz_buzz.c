@@ -2,9 +2,8 @@
 #include <stdio.h>
 
 /**
-*main(void) - Compute the absolute value of an integer
-*@n : - variable
-* Return: The absolute value
+*main(void) - entry point
+* Return: 0 (Success)
 */
 
 
