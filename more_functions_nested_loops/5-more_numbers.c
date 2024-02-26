@@ -13,10 +13,12 @@ int a;
 
 for (a = 0; a < 10; a++)
 {
-for (x = 0; x <= 14; x++)
+for (x = 0; x < 15; x++)
 {
-_putchar(x + '0');
-}
+if (a > 9)
+_putchar(a / 10 + '0');
+_putchar(a % 10 + '0');
 }
 _putchar('\n');
+}
 }
