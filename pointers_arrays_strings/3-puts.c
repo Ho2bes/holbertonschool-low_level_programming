@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- *
- *
+ *_puts
+ *@str : variable
  */
 
 void _puts(char *str)
