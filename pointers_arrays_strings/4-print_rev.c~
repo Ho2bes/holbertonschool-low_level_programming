@@ -1,0 +1,17 @@
+#include "main.h"
+
+/**
+ *print_rev a string followed by a new line
+ *@str : strings
+ *Return: void
+ */
+
+void _puts(char *str)
+{
+
+	for (*str = 1; *str <=0 ; str--)
+	{
+_putchar(*str);
+}
+_putchar('\n');
+}
