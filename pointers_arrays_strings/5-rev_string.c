@@ -3,7 +3,7 @@
 
 /**
  *rev_string - reverse a string
- *
+ *@s: pointer
  *Return: void
  */
 
