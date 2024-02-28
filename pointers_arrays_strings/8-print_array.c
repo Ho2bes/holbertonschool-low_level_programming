@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 /**
-*print_arrray - print array 
-*@n : is the number of elemet of the array
-*@a : is the pointer
-*Return: success
-*/
+ *print_array - prints every other character
+ *@a: pointers
+ *@n : variable
+ *Return: str
+ */
 
 void print_array(int *a, int n)
 
