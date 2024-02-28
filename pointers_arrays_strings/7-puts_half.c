@@ -17,4 +17,5 @@ j = i / 2 + 1;
 		_putchar(str[j]);
 		j++;
 	}
+	_putchar('\n');
 }
