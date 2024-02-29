@@ -2,33 +2,32 @@
 
 /**
  *_atoi - convert string to an integer
- *
- *
+ *@s: is a pointer
  *Return: Success
  */
 
 int _atoi(char *s)
 {
 	int num = 0;
-	int signe = -1
+	int signe = -1;
 
-		if (*str == '-')
+		if (*s == '-')
 		{
 			signe = -1;
-			str++;
+			s++;
 		}
 
-	while (*str != '\0')
+	while (*s != '\0')
 	{
-		if (*str >= '0' && *str <='9')
+		if (*s >= '0' && *s <= '9')
 		{
-			num = num * 10 + (*str - '0');
+			num = num * 10 + (*s - '0');
 		}
 		else
 		{
 			break;
 		}
-		str++
+		s++;
 			}
-	return num * signe;
+	return (num * signe);
 }
