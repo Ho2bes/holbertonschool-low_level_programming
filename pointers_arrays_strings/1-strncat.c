@@ -4,7 +4,7 @@
  **_strncat - concatenates two strings
  *@dest: first string
  *@src: second string
- *@n: variable 
+ *@n: variable
  *Return: success
  */
 
