@@ -2,12 +2,13 @@
 /**
  *reverse_array - reverse a array
  *@a: pointer
+ *@n: variable
  *Return: void
  */
 
 void reverse_array(int *a, int n)
 {
-	int i, c = n -1;
+	int i, c = n - 1;
 	char temp;
 
 	for (i = 0; i < c; c--, i++)
