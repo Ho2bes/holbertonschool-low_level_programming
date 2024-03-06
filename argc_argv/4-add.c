@@ -11,22 +11,19 @@
 
 int main(int argc, char *argv[])
 {
-int i, sum = 0;
+int i, j, sum = 0;
 for (i = 1; i < argc; i++)
 {
+for (j = 0; argv[i][j]; j++)
+{
+if (!isdigit(argv[i][j]))
+{
+printf("%s\n", "Error");
+return (1);
+}
+}
 sum += atoi(argv[i]);
 }
-if (argc > 1)
-{
-printf("%d\n", sum);
-}
-else if (argc == 1)
-{
-printf("%d\n", argc);
-}
-else
-{
-printf("Error\n");
-}
-return 0;
+printf("%i\n", sum);
+return (0);
 }
