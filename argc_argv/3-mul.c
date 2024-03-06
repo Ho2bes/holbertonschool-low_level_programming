@@ -18,5 +18,9 @@ int j = atoi(argv[2]);
 int resultat = i * j;
 printf("%d\n", resultat);
 }
+else
+{
+printf("Error\n");
+}
 return (0);
 }
