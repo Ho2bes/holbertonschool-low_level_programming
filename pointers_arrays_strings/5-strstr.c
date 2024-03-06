@@ -1,10 +1,11 @@
 #include "main.h"
 /**
-**_strstr - prototype
-*@haystack: the string to check
-*@needle: substring to find
-*Return: Success
-*/
+ **_strstr - locates a substring.
+ * @haystack: the string to check
+ * @needle: substring to find
+ *
+ * Return: a pointer to the beginning of the locate substring.
+ */
 
 char *_strstr(char *haystack, char *needle)
 {
