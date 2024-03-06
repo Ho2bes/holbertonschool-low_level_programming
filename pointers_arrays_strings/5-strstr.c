@@ -1,9 +1,10 @@
 #include "main.h"
 /**
- *_strstr - prototype
- *
- *Return: Success
- */
+**_strstr - prototype
+*@haystack: the string to check
+*@needle: substring to find
+*Return: Success
+*/
 
 char *_strstr(char *haystack, char *needle)
 {
