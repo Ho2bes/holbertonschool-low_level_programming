@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
-
+#include <ctype.h>
 /**
 *main - name
 *@argc: size of array
@@ -19,7 +19,7 @@ for (j = 0; argv[i][j]; j++)
 {
 if (!isdigit(argv[i][j]))
 {
-printf("Error\n", argv[i]);
+printf("Error\n");
 return 1;
 }
 }
@@ -35,7 +35,7 @@ printf("%d\n", argc);
 }
 else
 {
-printf("Error\n");
+printf("0\n");
 }
-return 0;
+return (0);
 }
