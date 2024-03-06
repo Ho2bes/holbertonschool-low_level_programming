@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-#include <stlib.h>
+#include <stdlib.h>
 
 /**
 *main - name
@@ -9,8 +9,9 @@
 *Return: Success
 */
 
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
-printf("%d\n", argc);
+if (*argv)
+printf("%d\n", argc -1);
 return (0);
 }
