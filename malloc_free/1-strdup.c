@@ -1,0 +1,23 @@
+#include "main.h"
+#include <stdlib.h>
+#include <string.h>
+/**
+ *_strdup - create a copy
+ *@str: size allowed
+ *Return: Array
+ */
+char *_strdup(char *str)
+{
+char *cp = NULL;
+unsigned int i, size = 0;
+if (str == NULL)
+return (NULL);
+while (str[size] != '\0')
+size++;
+cp = malloc((size + 1) * sizeof(char));
+if (cp == NULL)
+return (NULL);
+for (i = 0; i <= size; i++)
+cp[i] = str[i];
+return (cp);
+}
