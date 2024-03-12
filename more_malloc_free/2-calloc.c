@@ -17,8 +17,9 @@ return (NULL);
 array = malloc(size * nmemb);
 if (array == NULL)
 return (NULL);
+i = 0;
 for (i = 0; i < nmemb; i++)
 *(array + (i * size)) = 0;
 return (array);
-free (array);
+free(array);
 }
