@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- **string_nconcat - concat
+ *string_nconcat - concat
  *@s1: string 1
  *@s2: string 2
  *Return: Sucess
