@@ -20,4 +20,5 @@ return (NULL);
 for (i = min; i <= max; i++, j++)
 array[j] = max;
 return (array);
+free(array);
 }
