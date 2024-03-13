@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 /**
- **array_range - array
- *@min: variable min
- *@max: variable max
- *Return: Succcess
- */
+*array_range - array
+*@min: variable min
+*@max: variable max
+*Return: Succcess
+*/
 
 int *array_range(int min, int max)
 {
