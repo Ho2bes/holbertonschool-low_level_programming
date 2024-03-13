@@ -2,10 +2,9 @@
 #include <stdio.h>
 #include "dog.h"
 /**
- *print_dog - structure
- *@d: pointers
- */
-
+*print_dog - structure
+*@d: pointers
+*/
 void print_dog(struct dog *d)
 {
 if (d == NULL)
