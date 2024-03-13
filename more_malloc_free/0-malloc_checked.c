@@ -4,6 +4,7 @@
 /**
 **malloc_checked - checked
 *@b: variable
+*@p: array
 *Return: Success
 */
 
