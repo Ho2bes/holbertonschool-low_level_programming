@@ -1,10 +1,12 @@
 #include "main.h"
 #include <stdlib.h>
+#include <stdio.h>
 
 /**
  *string_nconcat - concat
  *@s1: string 1
  *@s2: string 2
+ *@n: variable
  *Return: Sucess
  */
 
