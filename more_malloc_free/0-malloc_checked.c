@@ -2,10 +2,10 @@
 #include <stdlib.h>
 
 /**
- **malloc_checked - checked
- *@b: variable
- *Return: Success
- */
+**malloc_checked - checked
+*@b: variable
+*Return: Success
+*/
 
 void *malloc_checked(unsigned int b)
 {
