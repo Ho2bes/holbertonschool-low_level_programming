@@ -14,10 +14,10 @@ int i, j = 0;
 int *array;
 if (min > max)
 return (NULL);
-array = malloc(max - min + 1);
+array = malloc(max - min + 1 * sizeof(int));
 if (array == NULL)
 return (NULL);
 for (i = min; i <= max; i++, j++)
-array[j] = i;
+array[j] = max;
 return (array);
 }
