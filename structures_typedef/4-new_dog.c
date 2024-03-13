@@ -2,13 +2,12 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- * init_dog - structure
- * @d: dog pointer
- * @name: dog name
- * @age: dog  age
- * @owner: dog owner
- *
- */
+*new_dog - structure
+*@name: dog name
+*@age: dog  age
+*@owner: dog owner
+*Return: Success
+*/
 dog_t *new_dog(char *name, float age, char *owner)
 {
 struct dog *d;
