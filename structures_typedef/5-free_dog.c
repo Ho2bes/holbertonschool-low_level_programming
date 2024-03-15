@@ -12,6 +12,5 @@ free(d);
 if (d != NULL)
 free(d->name);
 free(d->owner);
-free(d->age);
 free(d);
 }
