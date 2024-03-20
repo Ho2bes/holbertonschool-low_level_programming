@@ -10,9 +10,9 @@ int i = 0, blank;
 char *str;
 va_list a_list;
 va_start(a_list, format);
-blank = 1;
 while (format && format[i] != '\0')
 {
+blank = 1;
 switch (format[i])
 {
 case 'c':
@@ -32,6 +32,9 @@ printf("%s", str);
 break;
 }
 printf("(nil)");
+break;
+default:
+blank = 0;
 break;
 }
 if (format[i + 1] != '\0' && blank == 1)
