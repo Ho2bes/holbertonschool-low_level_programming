@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdarg.h>
 /**
- * print_strings - print all arguments.
- * @separator: printed between string.
- * @n: printed number of string.
+ * print_strings - print string arguments.
+ * @separator: printed between strings.
+ * @n: printed number of numbers.
  */
-void print_strings(const char* separator, const unsigned int n, ...)
+void print_strings(const char *separator, const unsigned int n, ...)
 {
 char *str;
 unsigned int i;
