@@ -4,12 +4,13 @@
 * print_all - prints anything.
 * @format: anything.
 */
-void print_all(const char* const format, ...)
+void print_all(const char * const format, ...)
 {
-int i = 0;
-char* str;
+int i = 0, blank;
+char *str;
 va_list a_list;
 va_start(a_list, format);
+blank = 1;
 while (format && format[i] != '\0')
 {
 switch (format[i])
@@ -33,7 +34,7 @@ break;
 printf("(nil)");
 break;
 }
-if (format[i + 1] != '\0')
+if (format[i + 1] != '\0' && blank == 1)
 {
 printf(", ");
 }
