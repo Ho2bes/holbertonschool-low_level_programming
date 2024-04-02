@@ -5,10 +5,12 @@
 #include <string.h>
 
 /**
- * struct list_s - linked list
- * @str: string pointer stored node data.
- * @len: string's length.
- * @next: pointer the  next node.
+ * struct list_s - singly linked list
+ * @str: string - (malloc'ed string)
+ * @len: length of the string
+ * @next: points to the next node
+ *
+ * Description: singly linked list node structure
  */
 
 typedef struct list_s
