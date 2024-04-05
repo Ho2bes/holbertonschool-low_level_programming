@@ -22,6 +22,7 @@ void _cp(char *file_from, char *file_to)
 {
 	int fd1, fd2, numread, numwrote;
 	char buffer[1024];
+
 	fd1 = open(file_from, O_RDONLY);
 	if (fd1 == -1)
 		_errexit("Error: Can't read from file %s\n", file_from, 98);
