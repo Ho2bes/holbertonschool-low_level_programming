@@ -1,28 +1,28 @@
-# 0x00. C - Hello, World
+# Hello World Project
 
-## Description
-This project is an introduction to the C programming language. It covers basic concepts such as compiling programs, the structure of a C program, and simple outputs using standard libraries.
+This repository contains the solutions for the **hello_world** project at Holberton School. The project is an introduction to the C programming language, covering basic syntax, structure, and the process of compiling and executing C programs.
 
-## Learning Objectives
-- What is a compiler and how does it work?
-- The structure of a basic C program.
-- How to print text using the `printf` and `puts` functions.
-- How to write comments in C.
-- The difference between `gcc` and `cc` and how to use them.
+## 📝 Project Overview
 
-## Files and Scripts
-| Filename             | Description |
-|----------------------|-------------|
-| `0-preprocessor`      | Runs a C file through the preprocessor. |
-| `1-compiler`          | Compiles a C file but does not link it. |
-| `2-assembler`         | Generates the assembly code of a C file. |
-| `3-name`              | Compiles a C file and creates an executable. |
-| `4-puts.c`            | Prints a string using the `puts` function. |
-| `5-printf.c`          | Prints a formatted string using `printf`. |
-| `6-size.c`            | Prints the size of various types. |
+The **hello_world** project is the starting point for learning the C programming language. It introduces fundamental concepts like compiling with `gcc`, printing output with `printf`, and understanding the basic structure of a C program.
 
-## Usage
-To compile and run a file:
-```bash
-gcc <filename> -o <output_name>
-./<output_name>
+### Key Concepts:
+- **Compiling**: Using `gcc` to compile C programs.
+- **printf**: Printing output to the console.
+- **C syntax**: Understanding the structure of a basic C program (including headers, `main` function, and return values).
+- **Betty coding style**: Ensuring code adheres to the Betty style for readability and consistency.
+
+### Skills Gained:
+- Compiling and running C programs using `gcc`.
+- Writing simple C programs that print output to the console.
+- Understanding the basic structure of a C program and how to follow coding style guidelines.
+
+## 📂 Project Structure
+
+- **0-preprocessor**: A script that runs a C file through the preprocessor and saves the result into another file.
+- **1-compiler**: A script that compiles a C file but does not link.
+- **2-assembler**: A script that generates the assembly code of a C file and saves it in an output file.
+- **3-name**: A script that compiles a C file and creates an executable named `cisfun`.
+- **4-puts.c**: A C program that prints a string using the `puts` function.
+- **5-printf.c**: A C program that prints a string using the `printf` function.
+- **6-size.c**: A C program that prints the size of various data types on the computer it is compiled and run on.
